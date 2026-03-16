@@ -1,0 +1,31 @@
+GRA-StructMeta/
+  README.md
+  setup.py
+  requirements.txt
+  docs/
+    01_concept_overview.md
+    02_gra_frames_and_resets.md
+    03_examples_bio_phys_cosmo.md
+    04_euclid_ready.md
+  src/
+    __init__.py
+    core/
+      __init__.py
+      gra_frame.py
+      gra_reset.py
+      gra_agents.py
+      metrics.py
+    domains/
+      __init__.py
+      micro_physics.py
+      bio_life.py
+      cosmo_universe.py
+  experiments/
+    exp_micro_law_search.ipynb
+    exp_bio_life_threshold.ipynb
+    exp_cosmo_from_cmb_bao_sn.ipynb
+  examples/
+    minimal_frame_demo.py
+    ood_inheritance_demo.py
+  data/
+    README.md  (для указания источников данных)
